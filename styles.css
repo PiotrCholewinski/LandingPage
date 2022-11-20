@@ -6,15 +6,15 @@ body {
     
 }
 
+.top {
+    background-color: #1f2937;
+    display: flex;
+}
 
 
-
-div{
-    
-    
-    
-    
-    
+img {
+    height: 300px;
+    width: 450px;
 }
 
 .header {
@@ -27,6 +27,7 @@ font-size: 18px;
 color: #e5e7eb;
 
 }
+
 ul {
     list-style-type: none;
     display: flex;
