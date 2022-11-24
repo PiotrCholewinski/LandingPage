@@ -2,7 +2,7 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0;
-    font-family: 'Roboto', sans-serif;
+    font-family: sans-serif;
     
 }
 
@@ -114,3 +114,34 @@ ul {
     
 }
 
+.middleTwo {
+    background-color: #e5e7eb;
+    height: 550px;
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.author {
+    text-align: right;
+    margin-top: 20px;
+    margin-right: 10px;
+    font-weight: 900;
+    font-size: 30px;
+}
+
+.bottom {
+    height: 450px;
+}
+
+.action
+{
+    background-color: #3882f6;
+    border-radius: 15px;
+
+}
