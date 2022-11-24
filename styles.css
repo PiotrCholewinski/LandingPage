@@ -2,7 +2,7 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0;
-    font-family: sans-serif;
+    font-family: 'Roboto', sans-serif;
     
 }
 
@@ -49,6 +49,14 @@ img {
     background-color: #1f2937;
 }
 
+.middleOne {
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
 .top {
     
     flex: 1;
@@ -77,3 +85,32 @@ ul {
     color: #f9faf8;
     font-weight: 700;
 }
+
+.block-container {
+    display: flex;
+    gap: 50px;
+    
+}
+
+.block {
+    height: 200px;
+    width: 200px;
+    border:5px solid #3882f6;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+
+.text {
+    width: 200px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.information {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    padding: 40px;
+    
+}
+
