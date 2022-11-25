@@ -10,9 +10,10 @@ body {
 
 .content-top {
     display: flex;
-    margin: 70px 150px;
+    padding: 70px 150px;
     gap:50px;
     align-items: center;
+    flex: 1;
    
 }
 
@@ -45,24 +46,22 @@ img {
     max-width: 100%;
 }
 
-.header, .top, .footer {
+.header, .content-top, .footer {
     background-color: #1f2937;
 }
 
 .middleOne {
-    height: 550px;
+    
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 30px;
+    padding: 80px;
+    
     
     
 }
 
-.top {
-    
-    flex: 1;
-}
+
 
 
 
@@ -92,6 +91,9 @@ ul {
     
     display: flex;
     gap: 50px;
+    flex-wrap: wrap;
+    justify-content: center;
+    
     
     
 }
@@ -115,7 +117,7 @@ ul {
     font-size: 36px;
     font-weight: 900;
     color: #1f2937;
-    padding: 40px;
+    margin-bottom: 25px;
     
 }
 
